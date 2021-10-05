@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GroceryAppAPI</string>
+    <string name="user_name">Username / Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="license_agreement">By pressing Sign Up you agree to the Term of<br>Service and Privacy Policy</br> </string>
+    <string name="mobile">Phone Number</string>
+    <string name="full_name">Name</string>
+    <string name="confirm_password">Confirmed Password</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="delivery_city">City</string>
+    <string name="delivery_zip">Zip-Code</string>
+    <string name="billing_zip">Billing Zip-code</string>
+    <string name="billing_city">Billing City</string>
+    <string name="delivery_state">State</string>
+    <string name="userId">User ID</string>
+    <string name="name_on_card">Name on Card</string>
+    <string name="card_num">Card Number</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="card_code">CVV Code</string>
+    <string name="orderID">Order Id</string>
+    <string name="order_date">Order Date</string>
+    <string name="payment_summary">Payment Summary</string>
+    <string name="delivery_address_number">House Number</string>
+
+</resources>
