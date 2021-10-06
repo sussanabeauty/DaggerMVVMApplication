@@ -99,33 +99,17 @@ class RegisterViewModel: ViewModel() {
             }
 
             override fun onNext(t: RegisterResponseData) {
-                //t.data
-                success.postValue("Registration was success")
 
-                t.error?.let { hasError ->
-
-                    if(hasError){
-                        Log.d("Register user failed", "Register was not successful", )
-                    }else{
-                        success.postValue("Registration was success")
-                        t?.message?.let { message ->  Log.d("Register was successful", message)}
-                    }
+                if(t.error == false){
+                    registerResponse.postValue(t)
+                    success.postValue(t.message)
                 }
-
-//                //t.data
-//                t.error?.let { hasError ->
-//                    success.postValue("Registration was success")
-//                    if(hasError){
-//                        t?.message?.let { message ->  Log.d("Register was successful", message)}
-//                    }else{
-//                        Log.d("Register user failed", "Register was not successful", )
-//                    }
-//                }
+//
             }
 
             override fun onError(e: Throwable) {
                 error.postValue("Failed to register user")
-                //Log.d("onError", e.toString())
+                e.printStackTrace()
             }
 
             override fun onComplete() {

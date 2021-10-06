@@ -111,19 +111,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         />
 
-<!--    <EditText-->
-<!--        android:id="@+id/etconfirmpassword"-->
-<!--        android:hint="@string/confirm_password"-->
-<!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
-<!--        android:gravity="center"-->
-<!--        android:layout_margin="@dimen/common_margin"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/etpassword"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        />-->
-
 
     <ProgressBar
         android:id="@+id/pbuser"

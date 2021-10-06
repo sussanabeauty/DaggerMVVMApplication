@@ -3,7 +3,7 @@ package org.sussanacode.mvvmwithdaggerapplication.entity.response
 data class RegisterResponseData (
     val error: Boolean?,
     val message: String?,
-    val data: List<Data>?
+    val data: Data?
 )
 
 

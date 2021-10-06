@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     private fun setUpObservers() {
 
         viewModel.success.observe(this){
-            Log.d("Success", "Register successful")
+            Toast.makeText(baseContext, "Register successful", Toast.LENGTH_LONG).show()
         }
 
 
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
             it.error?.let { hasError ->
                 if(hasError){
-                    it?.message?.let { message -> Toast.makeText(baseContext, message, Toast.LENGTH_LONG).show() }
+                    it?.message?.let { message -> Toast.makeText(baseContext,  message, Toast.LENGTH_LONG).show() }
 
                 }
             }
